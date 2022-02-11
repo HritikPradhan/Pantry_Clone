@@ -1,21 +1,21 @@
 {
-  "name": "radium",
+  "name": "hritikpradhan",
   "version": "1.0.0",
-  "description": "repository for backend cohort - Radium",
+  "description": "repository for pantry_clone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sabihak89/radium.git"
+    "url": "git+https://github.com/HritikPradhan/Pantry_Clone"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sabihak89/radium/issues"
+    "url": "https://github.com/HritikPradhan/Pantry_Clone/issues"
   },
-  "homepage": "https://github.com/sabihak89/radium#readme",
+  "homepage": "https://github.com/HritikPradhan/Pantry_Clone/blob/pantryClone/README.md",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
