@@ -49,12 +49,6 @@ const getPantry = async function (req, res) {
             return res.status(404).send({ status: false, messege: "Unable To Find The Pantry Make Sure The PantryId Is Correct" })
         }
         let checkbasket = await basketModel.find({ pantryId: body }).select({ basketName: 1, expire: 1, _id: 0 })
-        const time = new Date(Date.now());
-        let x=time.getSeconds();
-        
-        for (let i = 0; i < checkbasket.length; i++) {
-            checkbasket[i].expire =checkbasket[i].expire-x
-        }
         findpantry.baskets = checkbasket
         findpantry.percentFull = checkbasket.length
         return res.status(200).send({ status: true, messege: "Successfully Fetched Your Pantry Details", Data: findpantry })
