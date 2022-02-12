@@ -33,7 +33,9 @@ const createBasket = async function (req, res) {
         if (!present) {
             return res.status(404).send({ status: false, messege: "Unable To Find The Pantry Detail" })
         }
-        let data = { basketName: basketName, pantryId: pantryId, basket }
+        let future = new Date();
+        let x = future.setDate(future.getDate() + 1);
+        let data = { basketName: basketName, pantryId: pantryId, basket,expire:x }
         let save = await basketModel.create(data)
 
         return res.status(201).send({ status: true, messege: `Your Pantry Was Updated By Basket ${basketName}`, save })
