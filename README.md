@@ -114,7 +114,7 @@
         "baskets": [
             {
                 "basketName": "basket",
-                "expire": "Your Basket Will Be Deleted Automatically After 24hr"
+                "expire": "2022-02-13T05:45:55.244Z"
             }
         ]
     }
