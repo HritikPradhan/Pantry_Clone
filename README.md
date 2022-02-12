@@ -131,7 +131,7 @@
             "age": 21
         },
         "pantryId": "620619e8018146b79195c393",
-        "expire": "Your Basket Will Be Deleted Automatically After 24hr",
+        "expire": "2022-02-13T05:45:55.244Z",
         "_id": "620638093ed785396473d84a",
         "createdAt": "2022-02-11T10:18:49.756Z",
         "updatedAt": "2022-02-11T10:18:49.756Z",
